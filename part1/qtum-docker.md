@@ -1,8 +1,11 @@
 # QTUM Docker Container
 
-For this book we have built a docker image to gaurantee a consistent environment, so it's easier to follow the examples. The docker container includes `qtumd`, as well as all the tools you'll need for the rest of this book.
+For this book we have built a docker image to guarantee a consistent environment, so it's easier to follow the examples. The docker container includes `qtumd`, as well as all the tools you'll need for the rest of this book.
 
-Download the latest container image:
+If you do not have docker installed you can get it at https://www.docker.com/get-docker
+
+
+Once docker is installed you can Download the latest container image with the following command:
 
 ```
 docker pull hayeah/qtumportal:latest
@@ -16,7 +19,7 @@ For development and testing purposes it is most convenient to run a local blockc
 
 + The blockchain state is stored on disk, and persists across qtumd restarts.
 + The blocks are not mined immediately, but at a semi-regular intervals.
-+ Need to manually seed the chain with 600 blocks.
++ You will need to manually seed the chain with 600 blocks.
 
 By default, the `hayeah/qtumportal` docker image will start `qtumd` in `regtest` mode:
 

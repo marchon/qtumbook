@@ -100,7 +100,7 @@ qcli listunspent
 ]
 ```
 
-But sorry, there's no http://faucet.qtum.info : p
+But sorry, there's no http://faucet.qtum.info :p
 
 # Main Network
 
